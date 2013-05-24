@@ -5,7 +5,8 @@
 
 
 // Socket.IOに接続する
-var socket = io.connect("http://yukiChat.herokuapp.com:3000");
+var socket = io.connect();
+//var socket = io.connect("http://yukiChat.herokuapp.com:3000");
 //var socket = io.connect("http://localhost:3000");
  
   // 接続時のイベント
