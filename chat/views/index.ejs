@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="test/css" href="/stylesheets/style.css" >
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+
+
+
+<body>
+
+
+<div id="port-box"></div>
+ 
+<div id="list-box"></div>
+ 
+&nbsp;
+
+<form action="" method="get" onSubmit="return false;"><input id="enter" style="width: 200px;" type="text" name="enter" value="" /> <input id="enter2" onClick="roomPut();" type="submit" name="enter" value="ルームへ" /></form>
+ 
+<p>ルーム入室</p>
+&nbsp;
+ 
+<form action="" method="post" onsubmit="return false;"><input id="message" style="width: 200px;" type="text" name="message" value="" /> <input id="send" class="button" onClick="sendMessage();" type="submit" name="send" value="Send" /></form>
+ 
+<p>メッセージ送信</p>
+&nbsp;
+ 
+<div id="chat-box"></div>
+
+
+
+
+</body>
+</html>
